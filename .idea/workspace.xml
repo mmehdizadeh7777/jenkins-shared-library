@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d24c26c-da7c-49a5-a0ca-a301fe53281c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vars/buildimage.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/vars/buildimage.groovy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
