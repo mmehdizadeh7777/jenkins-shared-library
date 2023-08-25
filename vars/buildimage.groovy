@@ -2,7 +2,7 @@
 environment {
     DOCKERHUB_CREDENTIALS = credentials('dockerhub')
 }
-def call(string dockerImage){
+def call(String dockerImage){
     echo "building and pushing the docker image"
     sh "docker build -t $dockerImage ."
     withCredentials([usernamePassword(credentialsId: 'dockerhub', usernameVariable: 'USER', passwordVariable: 'PASS')]) {    
