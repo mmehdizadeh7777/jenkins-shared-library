@@ -2,7 +2,7 @@
 
 def call(String dockerImage){
     echo "commiting changes from jenkins into gitHub"
-    withCredentials([usernamePassword(credentialsId: 'github_creds', usernameVariable: 'USER', passwordVariable: 'PASS')]) {
+    withCredentials([usernamePassword(credentialsId: 'github_creds', passwordVariable: 'PASS', usernameVariable: 'USER')]) {
         sh 'git config --global user.email "jenkins@example.com"'
         sh 'git config --global user.name "jenkins"'
 
